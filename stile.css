@@ -1,6 +1,7 @@
 /* IMPOSTAZIONI GENERALI */
 body {
  font-family: 'Raleway', sans-serif;
+ margin-left: 5%;
 }
 
 h2 {
@@ -9,11 +10,13 @@ h2 {
     margin: 1em;
     font-size: 20px;
     font-weight: revert;
+    text-transform: uppercase;
 }
 h3{
     font-weight: bold;
     margin: 1em;
     border-left: 0px;
+    margin: 1em 1em 1em 0em;
 }
 
 
@@ -30,7 +33,10 @@ header {
     text-align: center;
 line-height: 2;
 margin-bottom: 1.5em;
-    
+}
+h1{
+    text-transform: uppercase;
+    font-size: 22px;
 }
 span {
     background-color: white;
@@ -39,13 +45,17 @@ span {
 #h2_black {
     color: black;
     margin: 5%;
+    font-weight: lighter;
+}
+#h2_black span{
+    font-weight: bold;
 }
  
 
 /* MAIN */
 
 #fig_img {
-    border: 1px solid grey;
+    border: 1px solid rgb(176, 176, 176);
     padding: 3px;
     text-align: center;
     margin-right: 25%;
@@ -87,8 +97,20 @@ mark {
 a {
     color: orangered;
 }
+a:hover {
+    color: hotpink;
+}
+a:visited {
+    color: yellow;
+}
 ul{
     padding: 2em;
+}
+strong{
+    color: #489ec2;
+}
+dl dd{
+    text-indent: 1em;
 }
 
 
@@ -107,3 +129,20 @@ ul{
 /* ELEMENTI NEL MAIN */
 
 /* FOOTER */
+footer {
+    background-color: rgb(46, 46, 46);
+    border-top:3px solid #489ec2;
+    text-align: center;
+
+}
+kbd{
+    color: yellow;
+}
+small{
+    color: grey;
+    margin: 2em;
+}
+.p_white{
+    color: white;
+    margin: 2em;
+}
