@@ -1,56 +1,94 @@
 /* IMPOSTAZIONI GENERALI */
-
-
+body {
+ font-family: 'Raleway', sans-serif;
+}
 
 h2 {
     color: #489ec2;
-    margin: auto;
     text-align: center;
+    margin: 1em;
+    font-size: 20px;
+    font-weight: revert;
+}
+h3{
+    font-weight: bold;
+    margin: 1em;
+    border-left: 0px;
 }
 
-body {
-    font-family: 'Raleway', sans-serif;
-}
+
 
 
  
 
 /* HEADER */
- #header {
+
+header {
     background-color: #489ec2;
     color: white;
-    margin: auto;
-    width: 50%;
+    border-bottom: 3px solid  #337492 ;
     text-align: center;
-    border-bottom: solid 0.8em #337492;
- }
-
- header h2 {
-    color: black;
-    text-align: center;
- }
-
- header span{
+line-height: 2;
+margin-bottom: 1.5em;
+    
+}
+span {
     background-color: white;
     color: #489ec2;
-    text-align: center;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
- }
-
+}
+#h2_black {
+    color: black;
+    margin: 5%;
+}
+ 
 
 /* MAIN */
 
-blockquote {
-    background-color: gray;
-    border-radius: 1em;
+#fig_img {
+    border: 1px solid grey;
+    padding: 3px;
     text-align: center;
-    height: 4em;
-    
+    margin-right: 25%;
+    margin-left: 20%;
 }
 
+figcaption{
+    text-align: center;
+    margin: 1em;
+}
+
+address {
+    margin: 1em;
+}
+#aboutme{
+    margin: 1em;
+}
+
+blockquote {
+    background-color: rgb(173, 173, 173);
+    text-align: center;
+    border-radius: 2em;
+ margin-right: 5%;
+ margin-left: 5%;
+ padding: 1em;
+    
+}
 hr {
-    border-top:1px dotted black;
+    border-top: 1px dotted black;
+    margin: 2em;
+}
+
+.strong_blue{
+    color: #489ec2;
+}
+mark {
+    background-color: #489ec2;
+}
+a {
+    color: orangered;
+}
+ul{
+    padding: 2em;
 }
 
 
