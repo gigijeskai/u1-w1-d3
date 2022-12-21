@@ -32,7 +32,7 @@ header {
     border-bottom: 3px solid  #337492 ;
     text-align: center;
 line-height: 2;
-margin-bottom: 1.5em;
+margin-bottom: 3rem
 }
 h1{
     text-transform: uppercase;
@@ -43,7 +43,7 @@ span {
     color: #489ec2;
 }
 #h2_black {
-    color: black;
+    color: white;
     margin: 5%;
     font-weight: lighter;
 }
@@ -55,7 +55,6 @@ span {
 /* MAIN */
 
 #fig_img {
-    border: 1px solid rgb(176, 176, 176);
     padding: 3px;
     text-align: center;
     margin-right: 25%;
@@ -65,10 +64,12 @@ span {
 figcaption{
     text-align: center;
     margin: 1em;
+    margin-bottom: 3rem;
 }
 
 address {
     margin: 1em;
+        margin-bottom: 3rem;
 }
 #aboutme{
     margin: 1em;
@@ -81,7 +82,7 @@ blockquote {
  margin-right: 5%;
  margin-left: 5%;
  padding: 1em;
-    
+    margin-bottom: 5rem;
 }
 hr {
     border-top: 1px dotted black;
